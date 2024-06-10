@@ -23,3 +23,4 @@ Dominguez Huaman Rubén Anthonny
 ## Derechos de Autor
 
 © Dominguez Huaman Rubén Anthonny. Todos los derechos reservados.
+![image](https://github.com/Anthonny-wt/VidaUniversitaria/assets/121044960/804404bc-c1c8-43b7-89d8-a673d11bb229)
