@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+    background-size: 300% 300%;
+    animation: gradientAnimation 30s ease infinite;
+    color: #ffffff;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+.collage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.collage h1{
+    font-family: 'Rubik Scribble', sans-serif;
+}
+
+.fotos-auto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Rubik Scribble', sans-serif;
+}
+.collage-group_1,
+.collage-group_2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.collage-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.collage-item {
+    width: calc(25% - 20px); 
+    
+}
+
+.collage-item iframe {
+    width: 300px;
+    height: 480px; 
+    margin: 10px; 
+    border-radius: 10px; 
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    overflow: hidden;
+}
+
+.gifs-animaciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Rubik Scribble', sans-serif;
+}
+
+.gifs-group_1,
+.gifs-group_2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gifs-item {
+    width: calc(55% - 20px);
+}
+
+.gifs-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

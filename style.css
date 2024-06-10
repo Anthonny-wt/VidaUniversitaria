@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    color: #ffffff;
+    background-image:url("img/fondos.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    background-size: cover;
+    font-family: 'Copperplate Gothic', sans-serif; 
+    
+}
+@font-face {
+    font-family: 'Copperplate Gothic';
+    src: url('ruta/al/archivo-de-fuente/Copperplate-Gothic.ttf') format('truetype'); /* Reemplaza 'ruta/al/archivo-de-fuente/' con la ruta real en tu servidor */
+    /* Puedes agregar más formatos de fuente aquí para garantizar la compatibilidad con diferentes navegadores */
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    text-align: justify;
+    display: flex;
+    box-sizing: border-box;
+    
+}
+
+#foto_index {
+    float: left;
+    margin-right: 20px;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.caja {
+    width: 300px;
+    height: 60px;
+    padding: 0px;
+    font-size: 14px;
+}
+
+.navbar {
+    display: flex;
+    align-self: flex-end;
+    margin-left: auto;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navbar a {
+    padding: 10px;
+    text-decoration: none;
+    color: #f8f8f8;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #f0f0f0;
+}
+
+.navbar a.active {
+    font-weight: bold;
+}
+
+
+.contenido {
+    max-width: 600px;
+    margin: auto;
+    text-align: justify;
+    margin-top: 40px;
+}
+.contenido h1 {
+    font-family: 'Courier Prime', monospace;
+}
+.contenido p {
+    font-family: 'Nanum Gothic Coding', monospace;
+
+}
+
+.proyectos {
+    margin: auto;
+    max-width: 600px;
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.skills {
+    margin: auto;
+    max-width: 600px;
+    text-align: start;
+    padding: 0px;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.skills h1 {
+    margin-bottom: 20px;
+    font-family: 'Courier Prime', monospace;
+}
+
+.skills h4 {
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.skills p {
+    margin: 10px;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.certificados {
+    text-align: center;
+}
+
+.certificados h1 {
+    margin-bottom: 20px;
+    font-family: 'Courier Prime', monospace;
+}
+
+.certificados .imagen-actual img {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.tecnologias {
+    margin: auto;
+    max-width: 600px;
+    text-align: justify;
+    margin-top: 40px;
+}
+.tecnologias p{
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+.tecnologias h1 {
+    margin-bottom: 20px;
+    font-family: 'Courier Prime', monospace;
+}
+
+.caja-grande {
+    padding: 20px;
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.caja1,
+.caja2 {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 10px;
+    margin-right: 0;
+}
+
+.caja1 img,
+.caja2 img {
+    margin-right: 20px;
+    max-width: 100px;
+    width: 60px;
+    margin: 0 10px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'Courier Prime', monospace;
+}
+
+.titulo h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fefefe;
+}
+
+ul.contactos {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+.contactos h1{
+    font-family: 'Courier Prime', monospace;
+}
+
+ul.contactos li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+ul.contactos li img {
+    max-width: 40px;
+    height: auto;
+}
+
+.formulario-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: 'Courier Prime', monospace;
+}
+
+.formulario-container form {
+    border: 1px solid transparent;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
+
+.contenedor {
+    max-width: 600px;
+    margin: auto;
+    text-align: justify;
+}
+
+.linea {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.linea hr {
+    border: none;
+    border-top: 1px solid #000;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        padding: 10px;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        margin-bottom: 5px;
+    }
+
+    #foto_index {
+        width: 80px;
+    }
+
+    .caja {
+        max-width: 100%;
+    }
+
+    .certificados .imagen-actual img {
+        max-width: 80%;
+    }
+}
